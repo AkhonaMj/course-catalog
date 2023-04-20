@@ -1,4 +1,27 @@
+
 .courses-offered, .testimony {
     display: flex;
     float:left;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+.historicalplaces {
+    display: flex;
+   
+    display: flex;
+
+}
+
+@media (max-width:960px) {
+    .courses-offered {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimony {
+        flex-direction: column;
+
+    }
+
 }
