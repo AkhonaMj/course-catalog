@@ -1,0 +1,4 @@
+.courses-offered, .testimony {
+    display: flex;
+    float:left;
+}
